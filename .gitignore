@@ -1,0 +1,28 @@
+# ---- 数据集：HFD100 的 h5（约 4.3 GB）----
+dataset/
+*.h5
+*.hdf5
+
+# ---- 早期输出（非最终结果）----
+test_output/
+
+# ---- 中间产物 ----
+*.bak
+.lazy.lua
+*.log
+
+# ---- 模型权重 ----
+*.pt
+*.pth
+*.pkl
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ---- 报告产物 ----
+*.pdf
+*.pptx
